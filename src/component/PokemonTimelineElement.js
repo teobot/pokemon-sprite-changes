@@ -10,6 +10,8 @@ import { VerticalTimelineElement } from "react-vertical-timeline-component";
 
 import { Header, Image } from "semantic-ui-react";
 
+import useWindowWidth from "../functions/useDimensions";
+
 function PokemonTimelineElement({
   pokemonData,
   pokemonKey,
@@ -17,6 +19,9 @@ function PokemonTimelineElement({
   imageKey,
   shinyEnabled,
 }) {
+  // window dimensions
+  const { windowWidth, windowHeight } = useWindowWidth();
+
   // The Release date of the generation
   const release_date = GENERATION_RELEASE_DATES.find(
     (element) => element.name.toLowerCase() === pokemonKey.toLowerCase()
@@ -97,7 +102,10 @@ function PokemonTimelineElement({
                   key={gameKey}
                 >
                   <div style={{ padding: 10 }}>
-                    <Image size="small" src={images[imageKey]} />
+                    <Image
+                      size={windowWidth > 600 ? "small" : "tiny"}
+                      src={images[imageKey]}
+                    />
                   </div>
                   <div style={{ padding: 10 }}>
                     <Header inverted as="h2">

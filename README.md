@@ -261,7 +261,6 @@ yarn start
   - This shows the version of the given pokemon and images
 
 
-[githubProjectLink]: https://github.com/teobot/toffy
-[liveProjectVersion]: https://github.com/teobot/toffy
-[website]: https://theoclapperton-portfolio.netlify.app/
-[bannerImage]: https://raw.githubusercontent.com/teobot/toffy-bucket/main/toffyWide.png
+[githubProjectLink]: https://github.com/teobot/pokemon-sprite-changes
+[liveProjectVersion]: https://pokemon-versions.netlify.app/
+[bannerImage]: https://raw.githubusercontent.com/teobot/my-portfolio/main/src/img/pokemonBanner.png
