@@ -1,12 +1,31 @@
-# pokemon-sprite-changes
+# Pokemon Sprite Versions
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
+
+![Image of homepage][bannerImage]
+
+> This is a website that displays the different pokemon sprites that nintendo have created over the years, From as early as 1996.
+
+## Project Details
+*Created By*: **Theo Clapperton**  
+*Written In*: **React**  
+*Style Guide*: **Prettier**  
+*Linter*: **ESlint**  
+*Version*: **`1.0.0`**  
+*Github Repo Link*: ***[Github Link][githubProjectLink]***  
+*Live Open Version*: ***[Homepage Link][liveProjectVersion]***  
 
 ## Table of Contents
-- [pokemon-sprite-changes](#pokemon-sprite-changes)
+- [Pokemon Sprite Versions](#pokemon-sprite-versions)
+  - [Project Details](#project-details)
   - [Table of Contents](#table-of-contents)
   - [About](#about)
   - [Requirements](#requirements)
-  - [Designs](#designs)
+  - [Design](#design)
   - [Implementation](#implementation)
+  - [Running](#running)
+    - [Installing packages](#installing-packages)
+    - [Running development build](#running-development-build)
+  - [Author](#author)
   - [Resources](#resources)
 
 ## About
@@ -18,7 +37,7 @@ The web service must be able to do the following as a minimum:
   - View the different versions
 - Be mobile friendly
 
-## Designs
+## Design
 I have access to the following JSON structure:
 ```json
 "versions": {
@@ -199,7 +218,7 @@ Here is the schema based on this design
 }
 ```
 
-From the look of this JSON return data I have a object with all the different generations inside, Each generation has possible multiple objects inside and each collection has both the front and back for both default and shiny
+From the look of this JSON return data I have a object with all the different generations inside, Each generation has possible multiple objects inside and each collection has both the front and back for both default and shiny.
 
 |        Name        |                             Description                              |  Type  |
 | :----------------: | :------------------------------------------------------------------: | :----: |
@@ -219,8 +238,30 @@ I used a react timeline library to display the pokemon versions with the date th
 
 I still have some additional information returned from the API, so could sneak a accordion with the remaining info.
 
+## Running
+### Installing packages
+```sh
+npm install
+```
+### Running development build
+```sh
+yarn start
+```
+
+## Author
+
+👤 **Theo Clapperton**
+
+* Website: https://theoclapperton-portfolio.netlify.app/
+* Github: [@teobot](https://github.com/teobot)
+* LinkedIn: [@theoClapperton](https://linkedin.com/in/theoClapperton)
 
 ## Resources
-- Can use the pokemon api
-  - https://pokeapi.co/api/v2/pokemon/charizard
-    - This shows the version of the given pokemon and images
+- https://pokeapi.co/api/v2/pokemon/charizard
+  - This shows the version of the given pokemon and images
+
+
+[githubProjectLink]: https://github.com/teobot/toffy
+[liveProjectVersion]: https://github.com/teobot/toffy
+[website]: https://theoclapperton-portfolio.netlify.app/
+[bannerImage]: https://raw.githubusercontent.com/teobot/toffy-bucket/main/toffyWide.png
