@@ -1,5 +1,6 @@
 # Pokemon Sprite Versions
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/434365ec-a195-4b0a-9e60-d5356ea8f986/deploy-status)](https://app.netlify.com/sites/pokemon-versions/deploys)
 
 ![Image of homepage][bannerImage]
 
