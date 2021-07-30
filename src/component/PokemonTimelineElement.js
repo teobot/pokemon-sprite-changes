@@ -78,6 +78,7 @@ function PokemonTimelineElement({
           display: "flex",
           flexDirection: "row",
           width: "100%",
+          overflowX: "auto"
         }}
       >
         {didThisGenHaveImage ? (

@@ -11,6 +11,7 @@ body,
   position: relative;
   /* background-color: whitesmoke !important; */
   background-color: #1c2128;
+  overflow-x: hidden;
 }
 
 .input-shade input {

@@ -114,7 +114,7 @@ function App() {
           labelPosition="right"
           placeholder="Search Pokemon"
         />
-        <Segment style={{ backgroundColor: "#434850", color: "white" }}>
+        <Segment style={{ backgroundColor: "#434850", color: "white", overflowX: "auto" }}>
           Fan Favorites:
           {FAN_FAVORITES.map((pokemon, index) => {
             return (
