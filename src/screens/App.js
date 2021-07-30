@@ -23,6 +23,7 @@ import {
   Segment,
   Checkbox,
 } from "semantic-ui-react";
+import GithubBanner from "../component/GithubBanner";
 
 export const capitalizeFirstCharInString = (string) => {
   return string.charAt(0).toUpperCase() + string.slice(1);
@@ -70,7 +71,7 @@ function App() {
             width: "100%",
             backgroundColor: "#434850",
             padding: "1em",
-            borderRadius: 5
+            borderRadius: 5,
           }}
         >
           <span
@@ -156,6 +157,7 @@ function App() {
         />
       </VerticalTimeline>
       <Divider hidden section />
+      <GithubBanner />
     </Container>
   );
 }
